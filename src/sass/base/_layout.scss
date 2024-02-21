@@ -1,0 +1,78 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.card {
+  background-color: v.$white;
+  width: min(90%, v.$phone);
+  padding: 2rem;
+  border-radius: 1.5rem;
+  border: 1px solid v.$black;
+  box-shadow: 4px 4px 0px v.$black;
+
+  &:hover{
+    box-shadow: 7px 7px 0px v.$black;
+
+    .heading {
+      color: v.$yellow;
+    }
+  }
+
+  img {
+    width: 100%;
+    border-radius: 1.2rem;
+  }
+
+  .label {
+    background-color: v.$yellow;
+    padding: .5rem .8rem;
+    border-radius: .5rem;
+  }
+
+  .date {
+    color: v.$black;
+  }
+
+  .heading {
+    font-size: 2.5rem;
+  }
+
+  p {
+    color: v.$grey;
+    line-height: 1.5;
+  }
+
+  div {
+    display: flex;
+    align-items: center;
+
+    img {
+      width: 3.5rem;
+      height: 3.5rem;
+      margin-right: 1rem;
+    }
+
+    p {
+      font-size: 1.5rem;
+      color: v.$black;
+      font-weight: 600;
+    }
+  }
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
