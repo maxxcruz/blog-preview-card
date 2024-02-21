@@ -21,8 +21,8 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [GitHub](https://github.com/maxxcruz/qr-code-component.git)
-- Live Site URL: [Netlify](https://qrcode-component-vanilla.netlify.app)
+- Solution URL: [GitHub](https://github.com/maxxcruz/blog-preview-card.git)
+- Live Site URL: [Netlify](https://blog-preview-card-sass.netlify.app/)
 
 ## My process
 
